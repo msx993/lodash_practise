@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #graph {
+        position: relative;
+        
+      }
+      #point {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+      <p>Привітання зявиться після вводу імені</p>
+      <input type="text" class="name-input" />
+      <p class="greet-modal">Вітаємо, <span></span></p>
+    </div>
+
+
+    <!-- 2 -->
+    <p>Порухай предмет</p>
+    <span id="coord"></span>
+    <div id="graph" style="background-color: rgb(81, 160, 16); height: 500px;">
+      <svg id="point" width="10" height="10">
+        <circle  cx="5" cy="5" r="5" fill="blue" />
+      </svg>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
